@@ -1,0 +1,7 @@
+{
+  "name": "Manikgad Cbse classes Buldana",
+  "description": "Comprehensive school management platform for Manikgad CBSE Classes, Buldana, featuring student admissions, attendance, and faculty management.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
