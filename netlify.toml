@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+  # This command replaces the placeholder in index.html with the actual API_KEY from your Netlify settings
+  command = "sed -i \"s/__API_KEY_PLACEHOLDER__/\"$API_KEY\"/g\" index.html"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  NODE_VERSION = "20"
